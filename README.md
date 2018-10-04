@@ -1,5 +1,5 @@
 # react-render-movie-list
-render movie data with response from API, able to filter by year, movie name
+render movie data from available source, able to filter data by year, movie name, price
 
 1.display loading icon while calling API
 
