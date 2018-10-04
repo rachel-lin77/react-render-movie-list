@@ -9,7 +9,7 @@ render movie data from available source, able to filter data by year, movie name
 
 4.render the best value icon based on the details
 
-5.when response list is empty, display service in unavailable
+5.when response list is empty, display message
 
 
 demo: http://rachelreact.azurewebsites.net/
