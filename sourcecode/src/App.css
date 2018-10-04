@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 130px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*@font-face {
+    font-family: 'fontawesome';
+    src: url('./asset/fonts/fontawesome-webfont.eot') format('eot'),
+         url('./asset/fonts/fontawesome-webfont.svg') format('svg'),
+         url('./asset/fonts/fontawesome-webfont.woff') format('woff'),
+         url('./asset/fonts/fontawesome-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}*/
+.alignCenter {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  padding-top: 300 px;
+}
+.loadText {
+    display: inline-block;
+    padding-top: 100px;
+}
+.tableContainer
+{
+  padding-left:10%;
+  padding-right:10%;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input.search{
+  width: 80% !important;
+  margin: auto;
+  border-radius: 8px !important;
+  height: 50px !important;
+}
+input:focus {
+  border-radius: 8px !important;
+}
+.desc{
+  color: #cccccc !important;
+}
+
+/*table render CSS*/
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td
+{
+  vertical-align: middle !important;
+  border-top: 0px !important;
+}
+
+.sortable-table .table thead th {
+  background-color: #164289 !important;
+  font-size: 14px;
+}
+.sortable-table .table tbody tr td{
+  font-size: 16px;
+  width: 30%;
+}
+.sortable-table .search-box input.search {
+  border: 1px solid #164286 !important;
+}
+
+.bestValueImg {
+  display: inline-block;
+  background-color: green;
+  color:white;
+  width:50%;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.imageloader.failed{
+  display: none;
+}
