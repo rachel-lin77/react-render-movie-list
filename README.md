@@ -13,3 +13,5 @@ render movie data from available source, able to filter data by year, movie name
 
 
 demo: http://rachelreact.azurewebsites.net/
+
+####################### Chrome is the best compatible browser ############################
